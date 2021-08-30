@@ -1,0 +1,26 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+.instagram-image,
+.d.block {
+  min-height: 33vh;
+}
+
+@media screen and (max-width: 768px) {
+  .instagram-image,
+  .d.block {
+    min-height: 17vh;
+  }
+}
+
+#ad-diag-logo-all-white {
+  max-height: 16vw;
+}
